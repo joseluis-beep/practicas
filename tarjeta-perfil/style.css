@@ -1,0 +1,43 @@
+body{
+    background-color:black
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+
+#nombre{
+    color: black;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    margin: 150px 100px;
+    border-radius: 5%;
+}
+
+input{
+    background-color: rgb(108, 108, 239);
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.texto{
+    text-align: center;
+    width: 200px;
+    padding-left: 50px;
+
+}
+
+/* <img src="jose.jpg">
+    <div class="nombre"><h1>jose luis</h1> 
+    <br>
+    <p class="designer">web designer</p>
+    <br>
+    <p cals="texto"> hola mi nombre es jose luis y estoy buscando una empresa </p>
+    </div> */

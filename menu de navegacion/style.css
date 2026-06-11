@@ -1,0 +1,35 @@
+/* <nav clas="menu">
+        <a href="">home</a>
+        <a href="">contact</a>
+        <a href="">about</a>
+        <a href="">help</a>
+    </nav> */
+
+body{
+    background-color: rgb(3, 0, 60);
+}
+
+/* .barra{
+    margin: 100px 50px;
+} */
+
+nav{
+    background: #ffffff;
+    height: 20px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 40px;
+    border-top:rgb(0, 0, 0);
+    margin: 20px 1px;
+
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    margin: 0 35px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #40e0d0;
+}    
