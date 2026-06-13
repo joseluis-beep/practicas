@@ -2,7 +2,7 @@
     color: #ff2ecf;
     margin: 20px 10px 10px 10px;
     width: 200px;
-    font-size: 30px;
+    font-size: 40px;
     text-shadow: 1px 1px 10px  #ff4dd8;
 }
 
@@ -13,6 +13,8 @@
 .navegacion{
     margin: -40px 250px;
     width: 800pt;
+    position: relative;
+    top: -30px;
 
 }
 .navegacion a{
@@ -27,6 +29,7 @@
 body{
     background-color: black;
     color: white;
+    width: 1500px;
 }
 
 /* <div class="titulo">
@@ -44,6 +47,7 @@ body{
     line-height: 0.8;
     position: relative;
     top: 30px;
+    left: 50px;
 
 }
 .STORE{
@@ -87,7 +91,7 @@ body{
 
 .categoria{
     position: relative;
-    left: 660px;
+    left: 590px;
     top: -790px;
     width: 20px;
     color: #00e5ff
@@ -108,15 +112,17 @@ body{
     position: relative;
     top: -780px;
     left: 30px;
+    width: 20px;
     /* margin: 0px 1px 100px 100px; */
 
 }
 
 .logos{
-    width: 200px;
+    width: 190px;
     border-width: 100px;
     margin: 20px;
     padding: 0px;
+    text-decoration: none;
 }
 
 /* <nav class="categorias">
@@ -128,13 +134,511 @@ body{
         <a href="">OFERTAS</a>
     </nav> */
 
+.ofertas{
+    position: relative;
+    left: 80px;
+    top: -70px;
+    color: #ff2ecf
+}
 
 
+.accesorios{
+    position: relative;
+    left: 70px;
+    top: -70px;
+    color: #00e5ff;
 
+}
+
+.phones{
+    position: relative;
+    left: 60px;
+    top: -70px;
+    color: #ff2ecf;
+}
+
+.auriculares{
+    position: relative;
+    left: 60px;
+    top: -70px;
+    color: #00e5ff;
+}
+
+.gaming{
+    position: relative;
+    left: 85px;
+    top: -70px;
+    color: #ff2ecf;
+}
+
+.tecno{
+    text-decoration: none;
+    position: relative;
+    left: 70px;
+    top: -70px;
+    color: #00e5ff;
+}
+.text{
+    text-decoration: none;
+    color: white;
+}
+.text:hover{
+    color: #ff2ecf;
+}
+
+
+/* <h2 class="destacados"> <strong class="productos">_______</strong>destacados <strong class="productos">_______</strong>
+    </h2> */
+
+.destacados{
+    position: relative;
+    left: 599px;
+    top: -799px;
+    color: #ff2ecf;
+    padding: 0px;
+    margin: 0px;
+    width: 290px;
+}
+
+/*     <img class="imagen"  src="/tienda/img/depositphotos_487839768-stock-photo-wireless-bluetooth-headphones-white-case (1).jpg" alt="">
+        <p class="nombre">nombre producto</p>
+        <p class="puntuacion">⭐⭐⭐⭐⭐</p>
+        <p class="precio">$???</p>
+        <p class="corazon">❤️</p>
+        <input class="agregar" type="button" value="AGREGAR AL CARRITO">
+    </div> */
+
+.tarjeta-producto{
+    background: transparent;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #ff2ecf;
+    color: #0ff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ff4dd8;
+    cursor: pointer;
+    position: relative;
+    top: -750px;
+    left: 20px;
+    margin: 20px;
+}
+
+.imagen{
+    width: 130px;
+    position: relative;
+    left: 30px;
+
+}
+
+.nombre{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+    left: 10px;
+    top: 10px;
+}
+
+.puntuacion{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.corazon{
+    position: relative;
+    left: 170px;
+    top: -200px;
+}
+
+.precio{
+    position: relative;
+    left: 10px ;
+    top: 10px;
+}
+
+.agregar{
+    background: transparent;
+    color: #ff2ecf;
+    border-color: #ff4dd8;
+    height: 34px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+
+/* segunda tarjeta */
+.tarjeta-producto2{
+    background: transparent;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #00e5ff;
+    color: #0ff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #00e5ff;
+    cursor: pointer;
+    position: relative;
+    top: -300px;
+    left: 240px;
+    margin: 0px 0px 0px 35px;
+}
+
+.imagen2{
+    width: 130px;
+    position: relative;
+    left: 30px;
+
+}
+
+.nombre2{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+    left: 10px;
+    top: 10px;
+}
+
+.puntuacion2{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.corazon2{
+    position: relative;
+    left: 170px;
+    top: -200px;
+}
+
+.precio2{
+    position: relative;
+    left: 10px ;
+    top: 10px;
+}
+
+.agregar2{
+    background: transparent;
+    color: #00e5ff;
+    border-color: #00e5ff;
+    height: 34px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+/* tercera tarjeta */
+
+.tarjeta-producto3{
+    background: transparent;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #ff2ecf;
+    color: #0ff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ff4dd8;
+    cursor: pointer;
+    position: relative;
+    top: -600px;
+    left: 480px;
+    margin: 0px 0px 0px 60px;
+}
+
+.imagen3{
+    width: 130px;
+    position: relative;
+    left: 30px;
+
+}
+
+.nombre3{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+    left: 10px;
+    top: 10px;
+}
+
+.puntuacion3{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.corazon3{
+    position: relative;
+    left: 170px;
+    top: -200px;
+}
+
+.precio3{
+    position: relative;
+    left: 10px ;
+    top: 10px;
+}
+
+.agregar3{
+    background: transparent;
+    color: #ff2ecf;
+    border-color: #ff4dd8;
+    height: 34px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+/* cuarta tarjeta */
+.tarjeta-producto4{
+    background: transparent;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #00e5ff;
+    color: #0ff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #00e5ff;
+    cursor: pointer;
+    position: relative;
+    top: -900px;
+    left: 720px;
+    margin: 0px 0px 0px 90px;
+}
+
+.imagen4{
+    width: 130px;
+    position: relative;
+    left: 30px;
+
+}
+
+.nombre4{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+    left: 10px;
+    top: 10px;
+}
+
+.puntuacion4{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.corazon4{
+    position: relative;
+    left: 170px;
+    top: -200px;
+}
+
+.precio4{
+    position: relative;
+    left: 10px ;
+    top: 10px;
+}
+
+.agregar4{
+    background: transparent;
+    color: #00e5ff;
+    border-color: #00e5ff;
+    height: 34px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+/* producto numeor 5 */
+.tarjeta-producto5{
+    background: transparent;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #ff2ecf;
+    color: #0ff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #ff4dd8;
+    cursor: pointer;
+    position: relative;
+    top: -1205px;
+    left: 960px;
+    margin: 0px 0px 0px 120px;
+}
+
+.imagen5{
+    width: 130px;
+    position: relative;
+    left: 30px;
+
+}
+
+.nombre5{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin: 0px;
+    left: 10px;
+    top: 10px;
+}
+
+.puntuacion5{
+    font-size: 10px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.corazon5{
+    position: relative;
+    left: 170px;
+    top: -200px;
+}
+
+.precio5{
+    position: relative;
+    left: 10px ;
+    top: 10px;
+}
+
+.agregar5{
+    background: transparent;
+    color: #ff2ecf;
+    border-color: #ff4dd8;
+    height: 34px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+
+/* <div class="ofrecemos">
+            <img  class="camion" src="/tienda/img/camion.jpg" alt="">
+            <p class="envio"><strong class="envios-rapidos">ENVIOS RAPIDOS</strong> a todo el pais</p>
+            <p class="separador">|</p>
+            <img  class="escudo" src="/tienda/img/escudo.jpg" alt="">
+            <p class="compra"><strong class="compra-segura">COMPRA SEGURA</strong> tus datos protegidos</p>
+            <p class="separador2">|</p>
+            <img  class="imagen-soporte" src="/tienda/img/soporte.jpg" alt="">
+            <p class="soporte"><strong class="soportes">SOPORTE 24/7</strong> estamos para ayudarte</p>
+        </div> */
+
+.ofrecemos{
+    color: white;
+    background: transparent;
+    border: 3px solid #00e5ff;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    position: relative;
+    top: -710px;
+    left: 290px;
+    border-radius: 30px;
+}
+.envio{
+    font-size: 15px;
+    position: relative;
+    top: 130px;
+    left: 100px;
+    width: 180px;
+    margin: 0px;
+    padding: 0px;
+    color: dimgrey;
+}
+.envios-rapidos{
+    color: #00e5ff;
+    font-size: 20px;
+    position: relative;
+    left: -40px;
+}
+
+.separador{
+    font-size: 100px;
+    position: relative;
+    left: 90px;
+    top: -60px;
+    color: dimgray;
+}
+
+.compra{
+    position: relative;
+    left: 125px;
+    top: 110px;
+    font-size: 15px;
+    width: 190px;
+    color: dimgrey;
+}
+
+.compra-segura{
+    font-size: 20px;
+    color: white;
+}
 /* 
 .ver-producto{
     background-color: aqua;
 } */
 
+.separador2{
+    font-size: 100px;
+    position: relative;
+    left: 140px;
+    top: -60px;
+    color: dimgray;
+}
+
+.soporte{
+    font-size: 15px;
+    color: dimgrey;
+    position: relative;
+    left: 190px;
+    top: 110px;
+    width: 140px;
+}
+
+.soportes{
+    color: #ff2ecf;
+    font-size: 20px;
+}
 
 
+.camion{
+
+    margin: 0px;
+    position: relative;
+    left: 380px;
+    border: 0px;
+    top: -910px;
+    width: 120px;
+}
+
+.escudo{
+    margin: 0px;
+    position: relative;
+    left: 520px;
+    border: 0px;
+    top: -910px;
+    width: 120px;
+}
+
+.imagen-soporte{
+    margin: 0px;
+    position: relative;
+    left: 660px;
+    border: 0px;
+    top: -910px;
+    width: 100px;
+}
