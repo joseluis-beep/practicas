@@ -78,7 +78,7 @@ body{
     width: 450px;
     line-height: 0.8;
     position: relative;
-    top: 30px;
+    top: -90px;
     left: 50px;
 
 }
@@ -116,8 +116,8 @@ body{
     width: 600px;
     position: relative;
     left: 700px;
-    top: -600px;
-
+    top: -800px;
+;
 }
 /* <h2 class="categoria">_______categoria_______</h2> */
 
@@ -320,10 +320,14 @@ body{
 }
 
 .imagen2{
-    width: 130px;
+    width: 170px;
     position: relative;
-    left: 30px;
-
+    left: 5px;
+    top: 20px;
+}
+.informacion-producto2{
+    position: relative;
+    top: 36px;
 }
 
 .nombre2{
@@ -384,10 +388,15 @@ body{
 }
 
 .imagen3{
-    width: 130px;
+    width: 180px;
     position: relative;
-    left: 30px;
+    left: 10px;
+    top: 20px;
 
+}
+.informacion-producto3{
+    position: relative;
+    top: 21px;
 }
 
 .nombre3{
@@ -509,10 +518,16 @@ body{
     margin: 0px 0px 0px 120px;
 }
 
+.informacion-producto5{
+    position: relative;
+    top: 49px;
+}
+
 .imagen5{
-    width: 130px;
+    width: 150px;
     position: relative;
     left: 30px;
+    top: 10px;
 
 }
 
@@ -816,15 +831,47 @@ html{
 .correo{
     background: transparent;
     border: 2px solid #ff2ecf;
+    height: 34px;
 }
 
-.envia{
-    background: transparent;
-    border: 2px solid #0ff;
+.botton{
+    width: 290px;
+    display: flex;
+    border: 2px solid #ff00aa;
+    border-radius: 12px;
+    box-shadow:
+    0 0 5px #ff00aa,
+    0 0 15px #ff00aa,
+    inset 0 0 5px #00e5ff;
     position: relative;
-    top: -21px;
-    left: 170px;
-    width: 30px;
+    left: -10px;
+}
+
+.botton input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.botton .envia{
+    width: 60px;
+    border: none;
+    background: transparent;
+    border-left: 1px solid #00e5ff;
+    box-shadow:
+    0 0 5px #00e5ff,
+    0 0 15px #00e5ff;
+    border-radius: 0 12px 12px 0;
+    cursor: pointer;
+}
+
+.enviarxd{
+    width: 40px;
+    position: relative;
+    top: 2px;
+
 }
 
 .container{
@@ -834,6 +881,6 @@ html{
     background: transparent;
     width: 1300px;
     border: 3px solid #ff2ecf;
-    height: 160px;
+    height: 200px;
     border-radius: 30px;
 }
