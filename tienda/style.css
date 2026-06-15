@@ -4,6 +4,14 @@
     width: 200px;
     font-size: 40px;
     text-shadow: 1px 1px 10px  #ff4dd8;
+    position: relative;
+    left: 80px;
+}
+.logo-superior{
+    width: 100px;
+    position: relative;
+    left: -100px;
+    top: -90px;
 }
 
 .titulo-secundario{
@@ -14,9 +22,32 @@
     margin: -40px 250px;
     width: 800pt;
     position: relative;
-    top: -30px;
-
+    top: -220px;
+    left: 30px;
 }
+.buscar{
+    width: 90px;
+    position: relative;
+    left: 1210px;
+    top: -210px;
+    cursor: pointer;
+}
+.usuario{
+    width: 90px;
+    position: relative;
+    left: 1220px;
+    top: -210px;
+    cursor: pointer;
+}
+
+.carrito-compras{
+    width: 90px;
+    position: relative;
+    left: 1230px;
+    top: -210px;
+    cursor: pointer;
+}
+
 .navegacion a{
     text-decoration: none;
     margin: 50px;
@@ -30,6 +61,7 @@ body{
     background-color: black;
     color: white;
     width: 1500px;
+    height: 2300px;
 }
 
 /* <div class="titulo">
@@ -662,4 +694,146 @@ body{
 .devoluciones{
     color: #00e5ff;
     font-size: 20px;
+}
+
+html{
+    width: 1399px;
+}
+
+
+/* <div class="titulo-tercero">NEON
+        <div class="titulo-terce">
+            STORE
+        <p class="tu-tienda">tu tienda online de confianza con los mejores productos y al mejor precio.</p>
+        </div> */
+
+.titulo-tercero{
+    color: #ff2ecf;
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-size: 20px;
+}
+.tu-tienda{
+    width: 190px;
+    color: white;
+    position: relative;
+
+    left: 40px;
+}
+.titulo-terce{
+    color: #00e5ff;
+    position: relative;
+
+    left: 40px;
+    font-size: 20px;
+}
+
+/* <nav class="enla-final">
+            <p class="enlaces-final"> ENLACES </p>
+            <a class="final" href="">inicio</a>
+            <a class="final" href="">productos</a>
+            <a class="final" href="">categorias</a>
+            <a class="final" href="">ofertas</a>
+            <a class="final" href="">contacto</a>
+        </nav> */
+
+.enla-final{
+    position: relative;
+    top: -135px;
+    left: 400px;
+    width: 20px;
+    font-size: 20px;
+
+}
+
+.enlaces-final{
+    color: #ff2ecf;
+    position: relative;
+    top: 5px;
+}
+
+.final{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* <nav class="informacion-final">
+            <p class="informa">INFORMACION</p>
+            <a class="info" href="">sobre nosotros</a>
+            <a class="info" href="">envios</a>
+            <a class="info" href="">devoluciones</a>
+            <a class="info" href="">terminos y condiciones</a>
+            <a class="info" href="">politica de privacidad</a>
+        </nav> */
+
+.informacion-final{
+    position: relative;
+    top: -300px;
+    left: 700px;
+    width: 165px;
+    height: 190px;
+
+
+}
+.info{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px 0px 0px 10px;
+}
+
+.informa{
+    color: #ff2ecf;
+    font-size: 20px;
+    position: relative;
+    top: -7px;
+}
+
+/* <nav class="suscribe">
+            <p class="suscribete"><strong class="titulo-suscribete">SUSCRIBETE </strong>
+            recibe ofertas exclucivas y novedades
+            </p>
+            <input class="correo" type="text" placeholder="tu correo alectronico">
+            <input class="envia" type="submit"> 
+        </nav> */
+
+.suscribe{
+    position: relative; 
+    top: -480px;
+    left: 1010px;
+    width: 200px;
+}
+
+.titulo-suscribete{
+    color: #ff2ecf;
+    position: relative;
+    top: -30px;
+    font-size: 20px;
+}
+
+.correo{
+    background: transparent;
+    border: 2px solid #ff2ecf;
+}
+
+.envia{
+    background: transparent;
+    border: 2px solid #0ff;
+    position: relative;
+    top: -21px;
+    left: 170px;
+    width: 30px;
+}
+
+.container{
+    position: relative;
+    top: -810px;
+    left: 40px;
+    background: transparent;
+    width: 1300px;
+    border: 3px solid #ff2ecf;
+    height: 160px;
+    border-radius: 30px;
 }
